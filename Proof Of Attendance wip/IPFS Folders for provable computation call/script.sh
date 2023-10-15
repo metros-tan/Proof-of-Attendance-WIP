@@ -1,2 +1,2 @@
 #!/bin/bash
-curl --silent "https://api.twitter.com/2/users/by/username/$ARG0?user.fields=description" -H "Authorization: Bearer "AAAAAAAAAAAAAAAAAAAAAE2zeAEAAAAAGmkuYCXNHHbcV66nTp1gyb99xlI%3Dl7Cc3kz2vyTgLOuCuUjCcWay3Ee9fsIfWjVFNxt8xphEes3AdU \ | jq -r '.data.description'
+curl --silent "https://api.twitter.com/2/users/by/username/$ARG0?user.fields=description" -H "Authorization: Bearer "" \ | jq -r '.data.description'
